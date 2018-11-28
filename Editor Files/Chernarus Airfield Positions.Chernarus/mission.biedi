@@ -1,0 +1,285 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+	};
+};
+class _center_0
+{
+	objectType="center";
+	class Arguments
+	{
+		SIDE="west";
+	};
+};
+class _group_0
+{
+	objectType="group";
+	class Arguments
+	{
+		CENTER="_center_0";
+	};
+};
+class _unit_0
+{
+	objectType="unit";
+	class Arguments
+	{
+		POSITION="[4905.48, 9688.8662, -339]";
+		GROUP="_group_0";
+		TYPE="USMC_Soldier_AA";
+		SKILL="0.60000002";
+		PLAYER="true";
+		LEADER="true";
+	};
+};
+class _vehicle_0
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4974.1201, 10012.304, 3.0517578e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-121.21269";
+		PARENT="";
+	};
+};
+class _vehicle_1
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4948.4419, 10055.036, -6.1035156e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-119.45762";
+		PARENT="";
+	};
+};
+class _vehicle_2
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4927.4048, 10098.72, -3.0517578e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-120.47627";
+		PARENT="";
+	};
+};
+class _vehicle_4
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4874.5693, 10179.009]";
+		TYPE="AN2_DZ";
+		AZIMUT="-118.96474";
+		PARENT="";
+	};
+};
+class _vehicle_5
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4848.5073, 10218.326, -9.1552734e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-120.31571";
+		PARENT="";
+	};
+};
+class _vehicle_6
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4899.5508, 10138.02, 6.1035156e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-119.76097";
+		PARENT="";
+	};
+};
+class _vehicle_7
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4825.3115, 9606.0107, -3.0517578e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-8.7250214";
+		PARENT="";
+	};
+};
+class _vehicle_8
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4962.5381, 9685.8887]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-51.638176";
+		PARENT="";
+	};
+};
+class _vehicle_9
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4244.3516, 10919.782, 3.0517578e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="164.96837";
+		PARENT="";
+	};
+};
+class _vehicle_10
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4124.9233, 10850.859, -3.0517578e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="122.84861";
+		PARENT="";
+	};
+};
+class _vehicle_11
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4526.0156, 10783.658, -6.1035156e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-121.31129";
+		PARENT="";
+	};
+};
+class _vehicle_12
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4587.6855, 10685.194, -3.0517578e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-119.55861";
+		PARENT="";
+	};
+};
+class _vehicle_13
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4498.4043, 10694.304, 3.0517578e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="170.83557";
+		PARENT="";
+	};
+};
+class _vehicle_14
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4452.0508, 10799.156, -6.1035156e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-66.270805";
+		PARENT="";
+	};
+};
+class _vehicle_16
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[11794.814, 12848.633, 3.0517578e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="132.00909";
+		PARENT="";
+	};
+};
+class _vehicle_17
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[12433.607, 12511.798, 4.5776367e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-38.026108";
+		PARENT="";
+	};
+};
+class _vehicle_18
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4644.8433, 2578.2515, 1.2397766e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="138.79065";
+		PARENT="";
+	};
+};
+class _vehicle_19
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4598.5522, 2492.5886, -1.4305115e-006]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="80.181107";
+		PARENT="";
+	};
+};
+class _vehicle_20
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5262.187, 2244.1062, 6.1988831e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-90.727539";
+		PARENT="";
+	};
+};
+class _vehicle_21
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4796.3179, 2584.4021, 8.5830688e-006]";
+		TYPE="AN2_DZ";
+		AZIMUT="-149.63545";
+		PARENT="";
+	};
+};
+class _vehicle_22
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4762.417, 2606.4893, 7.6293945e-006]";
+		TYPE="AN2_DZ";
+		AZIMUT="-148.76901";
+		PARENT="";
+	};
+};
+class _vehicle_23
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[12007.119, 12628.267, -1.5258789e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="18.522324";
+		PARENT="";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};

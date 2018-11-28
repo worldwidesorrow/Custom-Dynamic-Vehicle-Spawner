@@ -1,0 +1,252 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+	};
+};
+class _center_0
+{
+	objectType="center";
+	class Arguments
+	{
+		SIDE="west";
+	};
+};
+class _group_0
+{
+	objectType="group";
+	class Arguments
+	{
+		CENTER="_center_0";
+	};
+};
+class _vehicle_0
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[1101.0234, 17726.719, -3.8146973e-006]";
+		TYPE="An2_2_TK_CIV_EP1_DZ";
+		AZIMUT="-89.673126";
+		PARENT="";
+	};
+};
+class _vehicle_1
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[1101.129, 17795.916, 1.9073486e-006]";
+		TYPE="An2_2_TK_CIV_EP1_DZ";
+		AZIMUT="-89.901337";
+		PARENT="";
+	};
+};
+class _vehicle_2
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[1079.0964, 17838.205, 5.7220459e-006]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-94.410774";
+		PARENT="";
+	};
+};
+class _vehicle_5
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[1076.0483, 17880.826, -3.2424927e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-94.410774";
+		PARENT="";
+	};
+};
+class _vehicle_7
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[1073.1318, 17921.721, -1.9073486e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-94.410774";
+		PARENT="";
+	};
+};
+class _vehicle_9
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[931.79602, 18334.988, 3.4332275e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="145.35872";
+		PARENT="";
+	};
+};
+class _vehicle_11
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[1066.6517, 18300.623, 0.00053405762]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="218.75305";
+		PARENT="";
+	};
+};
+class _vehicle_12
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[1059.9445, 18225.221, 6.1035156e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="266.44513";
+		PARENT="";
+	};
+};
+class _vehicle_13
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22950.004, 19177.818, -1.6212463e-005]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="-89.807655";
+		PARENT="";
+	};
+};
+class _vehicle_14
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22950.656, 19227.82, -8.2969666e-005]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="271.24081";
+		PARENT="";
+	};
+};
+class _vehicle_15
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22951.504, 19278.117, 8.392334e-005]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="270.36404";
+		PARENT="";
+	};
+};
+class _vehicle_16
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22949.828, 19327.346, 4.4822693e-005]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="269.82758";
+		PARENT="";
+	};
+};
+class _vehicle_17
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22951.754, 19377.547, 1.9073486e-006]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="269.01291";
+		PARENT="";
+	};
+};
+class _vehicle_18
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22922.986, 19418.83, 7.1525574e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-115.08167";
+		PARENT="";
+	};
+};
+class _vehicle_19
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22910.928, 19124.262, 0.00030708313]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-38.675388";
+		PARENT="";
+	};
+};
+class _vehicle_20
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22841.775, 19846.381, 0.00011253357]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="-153.68346";
+		PARENT="";
+	};
+};
+class _vehicle_21
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22900.57, 19787.348, 2.6702881e-005]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="268.23087";
+		PARENT="";
+	};
+};
+class _vehicle_22
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22625.219, 20117.773, 0.00041770935]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="153.66916";
+		PARENT="";
+	};
+};
+class _vehicle_23
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[22764.635, 20096.9, 0.00026893616]";
+		TYPE="C130J_US_EP1_DZ";
+		AZIMUT="231.06374";
+		PARENT="";
+	};
+};
+class _unit_1
+{
+	objectType="unit";
+	class Arguments
+	{
+		POSITION="[22907.826, 19341.986, -4.3869019e-005]";
+		GROUP="_group_0";
+		TYPE="CDF_Soldier_Strela";
+		SKILL="0.60000002";
+		PLAYER="true";
+		LEADER="true";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};

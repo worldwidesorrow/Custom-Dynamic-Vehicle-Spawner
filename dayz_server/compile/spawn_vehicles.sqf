@@ -1,4 +1,4 @@
-private ["_random","_lastIndex","_index","_vehicle","_velimit","_qty","_isAir","_isShip","_position","_dir","_istoomany","_veh","_objPosition","_iClass","_num","_allCfgLoots"];
+private ["_random","_lastIndex","_index","_vehicle","_velimit","_qty","_isDC3","_isMV22","_isShip","_isHeli","_isC130","_isPlane","_position","_dir","_istoomany","_veh","_objPosition","_iClass","_num","_allCfgLoots"];
 // do not make _roadList, _buildingList or _serverVehicleCounter private in this function
 #include "\z\addons\dayz_code\util\Math.hpp"
 #include "\z\addons\dayz_code\util\Vector.hpp"
@@ -32,7 +32,8 @@ if (count AllowedVehiclesList == 0) then {
 	_isMV22 = _vehicle == "MV22_DZ";
 	_isHeli = _vehicle isKindOf "Helicopter";
 	_isC130 = _vehicle == "C130J_US_EP1_DZ";
-	_isPlane = (_vehicle isKindOf "Plane" && !_isMV22 && !_isC130);
+	_isDC3 = _vehicle == "ori_dc3";
+	_isPlane = (_vehicle isKindOf "Plane" && !_isMV22 && !_isC130 && !_isDC3);
 	
 	call {
 		// Spawn boats anywhere on coast on water
@@ -41,8 +42,8 @@ if (count AllowedVehiclesList == 0) then {
 		if (_isHeli || _isMV22) exitWith {_position = [getMarkerPos "center",0,((getMarkerSize "center") select 1),10,0,2000,0] call BIS_fnc_findSafePos;};
 		// Spawn AN2 and Cessna on runway or hangar positions
 		if (_isPlane) exitWith {_position = DZE_AllAircraftPositions call BIS_fnc_selectRandom; _dir = round(_position select 1); _position = _position select 0;};
-		// Spawn C130 on runway positions
-		if (_isC130) exitWith {_position = DZE_Runway_Positions call BIS_fnc_selectRandom; _dir = round(_position select 1); _position = _position select 0;};
+		// Spawn C130 on runway positions -- added DC3 for Origins
+		if (_isC130 || _isDC3) exitWith {_position = DZE_Runway_Positions call BIS_fnc_selectRandom; _dir = round(_position select 1); _position = _position select 0;};
 		// Spawn land vehicles around buildings and 50% near roads
 		if ((random 1) > 0.5) then {	
 			_position = _roadList call BIS_fnc_selectRandom;	

@@ -1,0 +1,153 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+	};
+};
+class _center_0
+{
+	objectType="center";
+	class Arguments
+	{
+		SIDE="west";
+	};
+};
+class _group_0
+{
+	objectType="group";
+	class Arguments
+	{
+		CENTER="_center_0";
+	};
+};
+class _unit_0
+{
+	objectType="unit";
+	class Arguments
+	{
+		POSITION="[6275.4463, 9630.123, -42.168606]";
+		GROUP="_group_0";
+		TYPE="ns_alex";
+		SKILL="0.60000002";
+		PLAYER="true";
+		LEADER="true";
+	};
+};
+class _vehicle_0
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6290.9497, 9623.7148]";
+		TYPE="AN2_DZ";
+		AZIMUT="-97.733849";
+		PARENT="";
+	};
+};
+class _vehicle_2
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6292.8301, 9602.7422, 3.8146973e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-92.690361";
+		PARENT="";
+	};
+};
+class _vehicle_4
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6293.0767, 9582.04, -8.0108643e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-91.193794";
+		PARENT="";
+	};
+};
+class _vehicle_8
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6302.499, 9272.9336, -1.1444092e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-77.90107";
+		PARENT="";
+	};
+};
+class _vehicle_10
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6298.9512, 9304.6895, 7.6293945e-006]";
+		TYPE="AN2_DZ";
+		AZIMUT="-95.22789";
+		PARENT="";
+	};
+};
+class _vehicle_12
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6296.9683, 9527.4414, -2.6702881e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-95.858528";
+		PARENT="";
+	};
+};
+class _vehicle_16
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6305.7607, 9235.8584, 4.5776367e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-96.700951";
+		PARENT="";
+	};
+};
+class _vehicle_18
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6305.5845, 9196.5742, 3.8146973e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-102.35473";
+		PARENT="";
+	};
+};
+class _vehicle_20
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6308.4282, 9171.084, 8.0108643e-005]";
+		TYPE="AN2_DZ";
+		AZIMUT="-87.802124";
+		PARENT="";
+	};
+};
+class _vehicle_22
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[6316.1602, 9120.333, 0.00021362305]";
+		TYPE="AN2_DZ";
+		AZIMUT="-71.361504";
+		PARENT="";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};
