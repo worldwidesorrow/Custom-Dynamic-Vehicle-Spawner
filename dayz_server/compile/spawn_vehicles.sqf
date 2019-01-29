@@ -74,7 +74,13 @@ if (count AllowedVehiclesList == 0) then {
 	
 		clearWeaponCargoGlobal  _veh;
 		clearMagazineCargoGlobal  _veh;
-
+		
+		_oriarray1 = ["ori_ZAZ968M","ori_taviander","ori_buchanka","ori_m3","ori_maniac","ori_KaTransp","ori_ScrapRaft","ori_rth_originsmod_bathmobile","ori_ScrapBuggy","ori_submarine","ori_bigRaft"];
+		_oriarray =["ori_ZAZ968M","ori_taviander","ori_buchanka","ori_m3","ori_maniac","ori_KaTransp","ori_ScrapRaft"];
+		if (typeOf _veh in _oriarray1) then {_veh animate ["hopa",1];_veh animate ["doska",1];}
+		if (typeOf _veh in _oriarray) then {_veh animate ["tropa",1];};
+		if (typeOf _veh == "ori_ScrapRaft") then {_veh animate ["OriModOhrana",1];};
+		
 		// Add 0-3 loots to vehicle using random loot groups
 		_num = floor(random 4);
 		_allCfgLoots = ["Trash","Trash","Consumable","Consumable","Generic","Generic","MedicalLow","MedicalLow","clothes","tents","backpacks","Parts","pistols","AmmoCivilian"];
