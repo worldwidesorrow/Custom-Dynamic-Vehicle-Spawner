@@ -18,3 +18,5 @@ Origins will add the scrap vehicles.
 3. Repack your server PBO.
 
 ### Maps supported so far: Chernarus, Napf, Lingor, Namalsk, Panthera, Tavi.
+
+Credit to Truece for the Origins 1.7.9.5 vehicle fix code.
