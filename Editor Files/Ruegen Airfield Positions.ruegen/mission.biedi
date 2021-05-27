@@ -1,0 +1,253 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+	};
+};
+class _center_0
+{
+	objectType="center";
+	class Arguments
+	{
+		SIDE="west";
+	};
+};
+class _group_0
+{
+	objectType="group";
+	class Arguments
+	{
+		CENTER="_center_0";
+	};
+};
+class _unit_0
+{
+	objectType="unit";
+	class Arguments
+	{
+		POSITION="[5186.0063, 21583.488, -4.5776367e-005]";
+		GROUP="_group_0";
+		TYPE="BAF_Soldier_AA_MTP";
+		SKILL="0.60000002";
+		PLAYER="true";
+		PLAYABLE="true";
+		LEADER="true";
+	};
+};
+class _vehicle_0
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5152.5142, 21600.607, -9.5367432e-006]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="148.90527";
+		PARENT="";
+	};
+};
+class _vehicle_2
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5018.2661, 21518.488, -6.1035156e-005]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="148.90527";
+		PARENT="";
+	};
+};
+class _vehicle_4
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4951.4629, 21472.211, 1.6212463e-005]";
+		TYPE="An2_TK_EP1";
+		AZIMUT="148.90527";
+		PARENT="";
+	};
+};
+class _vehicle_6
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5241.4678, 21601.275, 3.8146973e-006]";
+		TYPE="C130J";
+		AZIMUT="148.80865";
+		PARENT="";
+	};
+};
+class _vehicle_7
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5115.0171, 21508.145, -0.00014877319]";
+		TYPE="C130J";
+		AZIMUT="146.42041";
+		PARENT="";
+	};
+};
+class _vehicle_9
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5009.5713, 21455.387, -4.5776367e-005]";
+		TYPE="C130J";
+		AZIMUT="146.42041";
+		PARENT="";
+	};
+};
+class _vehicle_11
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4884.1641, 21360.277, -6.8664551e-005]";
+		TYPE="C130J";
+		AZIMUT="146.42041";
+		PARENT="";
+	};
+};
+class _vehicle_13
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4762.4004, 21271.303, -0.00016689301]";
+		TYPE="C130J";
+		AZIMUT="146.42041";
+		PARENT="";
+	};
+};
+class _vehicle_15
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4702.1157, 21237.779, -1.4305115e-005]";
+		TYPE="C130J";
+		AZIMUT="146.42041";
+		PARENT="";
+	};
+};
+class _vehicle_17
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4657.9302, 21203.23, 1.9073486e-006]";
+		TYPE="C130J";
+		AZIMUT="146.42041";
+		PARENT="";
+	};
+};
+class _vehicle_19
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[4836.416, 20986.725, -0.00019454956]";
+		TYPE="C130J";
+		AZIMUT="-3.5766037";
+		PARENT="";
+	};
+};
+class _vehicle_21
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5205.2969, 21224.213, -0.00012207031]";
+		TYPE="C130J";
+		AZIMUT="-36.107964";
+		PARENT="";
+	};
+};
+class _vehicle_24
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5259.4844, 21255.742, -0.0001373291]";
+		TYPE="C130J";
+		AZIMUT="-36.107964";
+		PARENT="";
+	};
+};
+class _vehicle_27
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5323.1025, 21302.303, -0.00022125244]";
+		TYPE="C130J";
+		AZIMUT="-36.107964";
+		PARENT="";
+	};
+};
+class _vehicle_29
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5495.7344, 21422.35, 0.00020122528]";
+		TYPE="C130J";
+		AZIMUT="-36.107964";
+		PARENT="";
+	};
+};
+class _vehicle_31
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5664.5303, 21546.35, -0.0001001358]";
+		TYPE="C130J";
+		AZIMUT="-36.107964";
+		PARENT="";
+	};
+};
+class _vehicle_33
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5584.3071, 21722.311, -0.00039291382]";
+		TYPE="C130J";
+		AZIMUT="145.75285";
+		PARENT="";
+	};
+};
+class _vehicle_35
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5358.6919, 21663.223, -0.00035095215]";
+		TYPE="C130J";
+		AZIMUT="145.75285";
+		PARENT="";
+	};
+};
+class _vehicle_37
+{
+	objectType="vehicle";
+	class Arguments
+	{
+		POSITION="[5630.3857, 21754.127, -0.00020599365]";
+		TYPE="C130J";
+		AZIMUT="145.75285";
+		PARENT="";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};
